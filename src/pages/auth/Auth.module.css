@@ -1,0 +1,41 @@
+.input{
+    max-width: 320px;
+}
+
+.input[type="text"]
+{
+    font-size:14px;
+    background-color:rgb(245, 245, 245);
+}
+
+.input[type="password"]
+{
+    font-size:14px;
+    background-color:rgb(245, 245, 245);
+}
+.h2{
+    font-size: 17px;
+    color: #AAA;
+    max-width: 320px;
+}
+.authBtn{
+    width: 300px;
+}
+.h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.a {
+    text-decoration: none;
+}
+.h1{
+    font-family: "Playball", cursive;
+}
+.fp:hover{
+    color: #379bd4;
+}
+.fp{
+    color: rgb(6, 6, 158);
+}
+
+

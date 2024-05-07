@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+$primary: #007bff;
+$success: #28a745;
+$warning: #ffc107;
+$danger: #dc3545;
+
+.post-block {
+	background: #fff;
+	padding: 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s;
+	img.author-img {
+		height: 45px;
+		width: 45px;
+		border-radius: 45px;
+		&.author-img--small {
+			height: 30px;
+			width: 30px;
+		}
+	}
+	.comment-view-box {
+		&__comment{
+			border-radius: 5px;
+			background:#f5f5f5;
+			padding: 15px;
+		}
+	}
+}
+a{
+	text-decoration: none;
+}
+
+.interact i {
+	font-size: 24px;
+}
+
+.interact:hover i{
+	color: #ccc;
+}
+
+.interact:hover i.fa{
+	color: rgb(214, 37, 37);
+}
+
+.view-more-coment:hover {
+	text-decoration: underline;
+}
+
+.count-interact span {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.interact-comment span {
+	font-size: 11px;
+}
+
+.interact-comment:hover span {
+	text-decoration: underline;
+}
+
+.interact-comment i:hover {
+	color: #ccc;
+}
+.post-image{
+	justify-content: center;
+	text-align: center;
+	background-color: black;
+}
+
+.icon-homepage span {
+	font-size: 18px;
+}
+
+.homepage-avatar img {
+	vertical-align: middle;
+    width: 36px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.time-post {
+	font-size: 13px;
+}
+
+.scroll-button-home-page {
+	position: absolute;
+	bottom: 140px;
+	right: 60px;
+	display: inline;
+    background-color: #d41b1b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+	font-size: 20px;
+}
